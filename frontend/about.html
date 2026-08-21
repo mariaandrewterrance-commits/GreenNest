@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — GreenNest</title>
+<meta name="description" content="Learn about GreenNest's mission to help every home grow naturally.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><text y=%2220%22 font-size=%2220%22>🌱</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="header-top">
+    <div class="container">
+      <span>🌿 Free delivery on orders above ₹499</span>
+      <div class="top-right">
+        <a href="about.html">About</a>
+        <a href="contact.html">Help &amp; Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="container navbar">
+    <a href="index.html" class="logo">
+      <svg class="leaf-mark" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="24" fill="#E4EEE3"/>
+        <path d="M24 36V18" stroke="#1F3D2B" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M24 18c0-7 6-10 12-10 0 8-3 13-12 13Z" fill="#4A7C59"/>
+        <path d="M24 24c0-6-5-9-11-9 0 7 3 11 11 11Z" fill="#7FA684"/>
+      </svg>
+      <span>GreenNest<span class="tagline">Grow Naturally. Live Better.</span></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <form class="search-inline" data-search-form role="search">
+      <input type="text" placeholder="Search seeds, plants, tools…" aria-label="Search products">
+      <button type="submit" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+    </form>
+
+    <div class="nav-actions">
+      <a class="icon-btn" href="products.html?wishlist=1" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.4-9.5-8.7C.7 8.8 2.4 5 6 5c2 0 3.4 1 4 2.3C10.6 6 12 5 14 5c3.6 0 5.3 3.8 3.5 7.3C19 16.6 12 21 12 21Z"/></svg>
+        <span class="badge-count wishlist-count">0</span>
+      </a>
+      <a class="icon-btn" href="cart.html" aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M2 3h2l2.4 12.4a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+        <span class="badge-count cart-count">0</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE DRAWER ============ -->
+<div class="mobile-drawer">
+  <div class="drawer-panel">
+    <button class="drawer-close" aria-label="Close menu">&times;</button>
+    <nav class="nav-links" aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+    <form class="search-inline drawer-search" data-search-form role="search">
+      <input type="text" placeholder="Search products…" aria-label="Search products">
+      <button type="submit" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
+<main id="main">
+
+  <div class="page-hero">
+    <h1>Our Story</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>About</span></div>
+  </div>
+
+  <section class="section">
+    <div class="container about-hero">
+      <div>
+        <span class="eyebrow" style="color:var(--leaf); font-weight:700; text-transform:uppercase; letter-spacing:.08em; font-size:.8rem;">Why GreenNest</span>
+        <h2>Rooted in the belief that everyone deserves a garden</h2>
+        <p>GreenNest started in a small backyard with a few pots of tomatoes and too many questions about why half of them weren't growing. We built the shop we wished existed back then — one with honest product descriptions, fresh seed stock, and tools that actually last.</p>
+        <p>Today, we work with organic seed banks, local nurseries and small-batch soil makers to bring reliable, chemical-free gardening supplies to balconies, backyards and rooftops everywhere.</p>
+        <a href="products.html" class="btn btn-primary">Explore Our Products</a>
+      </div>
+      <img src="community.jpg" alt="Founders working in a community garden surrounded by seedlings">
+    </div>
+  </section>
+
+  <section class="section section-tight" style="background:var(--leaf-pale);">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">What we stand for</span>
+          <h2>Our Values</h2>
+        </div>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="cat-blob"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--leaf);"><path d="M12 21c-4-1-7-4-7-9 0-3 2-6 7-9 5 3 7 6 7 9 0 5-3 8-7 9Z"/></svg></div>
+          <h3>100% Organic</h3>
+          <p>No synthetic chemicals, ever — from seed to soil.</p>
+        </div>
+        <div class="value-card">
+          <div class="cat-blob"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--leaf);"><path d="M20 7 12 3 4 7v6c0 5 4 8 8 8s8-3 8-8V7Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Quality Checked</h3>
+          <p>Every batch is tested for germination and freshness.</p>
+        </div>
+        <div class="value-card">
+          <div class="cat-blob"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--leaf);"><path d="M12 21s-7-4.4-9.5-8.7C.7 8.8 2.4 5 6 5c2 0 3.4 1 4 2.3C10.6 6 12 5 14 5c3.6 0 5.3 3.8 3.5 7.3C19 16.6 12 21 12 21Z"/></svg></div>
+          <h3>Grown with Care</h3>
+          <p>Small-batch sourcing from growers who share our standards.</p>
+        </div>
+        <div class="value-card">
+          <div class="cat-blob"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--leaf);"><rect x="1" y="6" width="16" height="12" rx="2"/><path d="M17 10h3l3 3v3h-6z"/><circle cx="6" cy="19" r="1.6"/><circle cx="17.5" cy="19" r="1.6"/></svg></div>
+          <h3>Doorstep Delivery</h3>
+          <p>Careful, fast packing so plants arrive healthy and happy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="stat-strip">
+        <div><strong>25,000+</strong><span>Gardeners served</span></div>
+        <div><strong>500+</strong><span>Products curated</span></div>
+        <div><strong>4.7 / 5</strong><span>Average customer rating</span></div>
+        <div><strong>6</strong><span>Years growing together</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The people behind GreenNest</span>
+          <h2>Meet the Team</h2>
+        </div>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="nair.jpg" alt="Portrait of Reema Nair">
+          <h4>Reema Nair</h4>
+          <span>Co-founder &amp; Head Horticulturist</span>
+        </div>
+        <div class="team-card">
+          <img src="karan.jpg" alt="Portrait of Karan Mehta">
+          <h4>Karan Mehta</h4>
+          <span>Co-founder &amp; Operations</span>
+        </div>
+        <div class="team-card">
+          <img src="leah.jpg" alt="Portrait of Leah Fernandes">
+          <h4>Leah Fernandes</h4>
+          <span>Soil &amp; Sourcing Lead</span>
+        </div>
+        <div class="team-card">
+          <img src="Ibrahim.jpg" alt="Portrait of Ibrahim Sheikh">
+          <h4>Ibrahim Sheikh</h4>
+          <span>Customer Success</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="newsletter">
+        <div>
+          <h2>Join the GreenNest Circle</h2>
+          <p>Seasonal planting guides, exclusive offers and new arrivals — straight to your inbox.</p>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+          <button type="submit" class="btn btn-gold">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <svg class="leaf-mark" viewBox="0 0 48 48" fill="none">
+          <circle cx="24" cy="24" r="24" fill="#E4EEE3"/>
+          <path d="M24 36V18" stroke="#1F3D2B" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M24 18c0-7 6-10 12-10 0 8-3 13-12 13Z" fill="#4A7C59"/>
+          <path d="M24 24c0-6-5-9-11-9 0 7 3 11 11 11Z" fill="#7FA684"/>
+        </svg>
+        <span>GreenNest</span>
+      </a>
+      <p>Grow Naturally. Live Better. Thoughtfully sourced seeds, plants and gardening essentials for every home.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h3l1-3h-4v-2a1 1 0 0 1 1-1Z"/></svg></a>
+        <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.4-1.3 1.7-2.3-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.4 4.6a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.6 3.3 4a4.1 4.1 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.8A8.2 8.2 0 0 1 2 18.4a11.6 11.6 0 0 0 6.3 1.8c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1Z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="products.html?category=Vegetable%20Seeds">Vegetable Seeds</a></li>
+        <li><a href="products.html?category=Flower%20Seeds">Flower Seeds</a></li>
+        <li><a href="products.html?category=Plants">Plants</a></li>
+        <li><a href="products.html?category=Grow%20Bags">Grow Bags</a></li>
+        <li><a href="products.html?category=Soil%20%26%20Fertilizers">Soil &amp; Fertilizers</a></li>
+        <li><a href="products.html?category=Gardening%20Tools">Gardening Tools</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="about.html">About GreenNest</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html">My Cart</a></li>
+        <li><a href="products.html">All Products</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="contact.html">Shipping &amp; Returns</a></li>
+        <li><a href="contact.html">FAQs</a></li>
+        <li><a href="contact.html">Track Order</a></li>
+        <li><a href="contact.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 GreenNest. All rights reserved.</span>
+    <span>Made with 🌿 for gardeners everywhere.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
